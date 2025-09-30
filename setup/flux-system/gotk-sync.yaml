@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: https://github.com/jawedc/infra-outils.git
+  url: ssh://git@github.com/jawedc/infra-outils
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
